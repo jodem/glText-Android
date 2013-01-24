@@ -1,11 +1,8 @@
 Rendering Text Library in OpenGL 1.1 on Android
 ------------------------------------------------
-This library has been released on the [fractious] website.
-
-
-
-[fractious]: http://fractiousg.blogspot.fr/2012/04/rendering-text-in-opengl-on-android.html
+This library has been originally released on fractious games web page.
 
 You CAN use it freely in any commercial, non-commerical,
 open source, or closed source project(s).
 
+More details about implementation : http://fractiousg.blogspot.fr/2012/04/rendering-text-in-opengl-on-android.html
