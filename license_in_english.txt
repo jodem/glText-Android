@@ -1,0 +1,3 @@
+The CC0 1.0 Universal license grants you freedom to do whatever you want with
+the included code. You CAN use it freely in any commercial, non-commerical,
+open source, or closed source project(s).
