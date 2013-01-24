@@ -51,8 +51,8 @@ public class TexampleRenderer implements GLSurfaceView.Renderer  {
       gl.glBlendFunc( GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA );  // Set Alpha Blend Function
 
       // TEST: render the entire font texture
-      gl.glColor4f( 1.0f, 1.0f, 1.0f, 1.0f );         // Set Color to Use
-      glText.drawTexture( width, height, 0 );            // Draw the Entire Texture
+      //gl.glColor4f( 1.0f, 1.0f, 1.0f, 1.0f );         // Set Color to Use
+      //glText.drawTexture( width, height, 0 );            // Draw the Entire Texture
 
       // TEST: render some strings with the font
       glText.begin( 1.0f, 1.0f, 1.0f, 1.0f );         // Begin Text Rendering (Set Color WHITE)
@@ -61,15 +61,15 @@ public class TexampleRenderer implements GLSurfaceView.Renderer  {
       glText.draw( "Line 2", 100, 100, 0 );              // Draw Test String
       glText.end();                                   // End Text Rendering
 
-      glText.begin( 0.0f, 0.0f, 1.0f, 1.0f );         // Begin Text Rendering (Set Color BLUE)
+   /*   glText.begin( 0.0f, 0.0f, 1.0f, 1.0f );         // Begin Text Rendering (Set Color BLUE)
       glText.draw( "More Lines...", 50, 150, 0 );        // Draw Test String
       glText.draw( "The End.", 50, 150 + glText.getCharHeight(), 0 );  // Draw Test String
       glText.end();                                   // End Text Rendering
-
+     */
 
        glText.begin( 1.0f, 0.0f, 0.0f, 1.0f );         // Begin Text Rendering (Set Color RED)
        glText.draw( "zoom out !", -200,0, -800 );        // Draw Test String
-       glText.draw( "zoom in !", -50,-50, 800 );        // Draw Test String
+       glText.draw( "zoom in !", -50,-50, 600 );        // Draw Test String
 
        glText.end();
 
